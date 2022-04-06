@@ -1,0 +1,34 @@
+.signupinfo {
+  width: 1540px;
+  height: 800px;  
+  display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F2FF;
+  }
+
+.signupinfo input {
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+input[type=text],[type=password],[type=email],[type=tel]{
+  border: 3px solid #0b6561;
+  border-radius: 7px;
+}
+
+.signupBtn{
+  border: 2px solid #0b6561;
+  border-radius: 7px;
+  background: #F6F2FF;
+  margin-top: 10px;
+  transition-duration: 0.2s;
+}
+
+.signupBtn:hover{
+  background-color: #0b6561; 
+  color: white;
+}
