@@ -1,0 +1,32 @@
+.signininfo {
+  margin-top:0px;
+  width: 1540px;
+  height: 800px;  
+  display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F2FF;
+  }
+
+.signininfo input {
+  width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+.lgnbtn {
+ background: #F6F2FF;
+ margin-top: 10px;
+ transition-duration: 0.2s;
+}
+
+.lgnbtn:hover{
+  background-color: #0b6561; 
+  color: white;
+}
+input [type=email],[type=password]{
+  border: 3px solid #0b6561;
+  border-radius: 7px;
+}
+

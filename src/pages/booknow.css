@@ -1,0 +1,9 @@
+.bndiv {
+    width: 1540px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F2FF;
+}
